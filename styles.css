@@ -212,12 +212,13 @@ header > img {
 }
 
 .client {
-  height: 100vh;
+  height: 100vh; /* check desktop view in mobile */
   min-height: 50rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 5rem;
 }
 
 .client-heading {
@@ -232,7 +233,7 @@ header > img {
 .client-container {
   text-align: center;
   display: flex;
-  max-width: 80%;
+  max-width: 85%;
 }
 
 .client-pht > img {
@@ -252,4 +253,21 @@ header > img {
   color: var(--neutral-blue);
   font-family: var(--font-fraunces);
   font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.client-role {
+  font-family: var(--font-barlow);
+  color: var(--neutral-grayish-blue);
+}
+
+.client-container {
+  display: flex;
+  column-gap: 3rem;
+}
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
 }
