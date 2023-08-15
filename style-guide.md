@@ -1,4 +1,4 @@
-# Front-end Style Guide
+ width: 50%;# Front-end Style Guide
 
 ## Layout
 
