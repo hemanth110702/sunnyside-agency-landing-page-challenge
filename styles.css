@@ -143,6 +143,31 @@ header > img {
   object-position: center;
 }
 
+.learn {
+  margin-top: 2rem;
+  font-family: var(--font-fraunces);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.learn > hr {
+  margin-top: -7px;
+  width: 7.5rem;
+  height: 10px;
+  border: none;
+  border-radius: 1rem;
+}
+
+.ylw {
+  background-color: hsla(51, 100%, 49%, 0.3);
+}
+
+.rd {
+  background-color: hsla(7, 99%, 70%, 0.3);
+}
+
+
+
 .graphics {
   background: url('images/desktop/image-graphic-design.jpg');
 
@@ -270,4 +295,62 @@ header > img {
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
+}
+
+.gallery {
+  display: flex;
+  overflow: hidden;
+}
+
+.gallery > section {
+  max-width: 25%;
+}
+
+.gallery > section > img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: #8ed0c4;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5rem;
+}
+
+.lg {
+  height: 2.2rem;
+}
+
+.ft-combined {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.ft-nav {
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ft-nav > div {
+  font-family: var(--font-barlow);
+  font-weight: 600;
+  color: var(--primary-footer-cyan);
+}
+
+.ft-icons {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lg {
+  filter: invert(60%) sepia(10%) saturate(1680%) hue-rotate(118deg) brightness(92%) contrast(86%);
 }
