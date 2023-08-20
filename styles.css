@@ -28,7 +28,7 @@
 
 header {
   height: 100vh;
-  min-height: 50rem;
+  min-height: 47rem;
   background-image: url('images/desktop/image-header.jpg');
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -96,8 +96,8 @@ header > img {
 .transform, .standout,
 .gp-container {
   display: flex;
-  height: 80vh;
-  min-height: 33rem;
+  height: 80vh; 
+  min-height: 35rem;
 }
 
 .transform-left,.transform-right,
@@ -194,7 +194,7 @@ header > img {
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 20%;
+  bottom: 25%;
   left: 50%;
   transform: translate(-50%, 50%);
 }
@@ -205,7 +205,7 @@ header > img {
 .graphics-heading {
   text-align: center;
   max-width:15ch;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: var(--font-fraunces);
   font-weight: 900;
   line-height: 3.5rem;
