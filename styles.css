@@ -28,7 +28,7 @@
 
 header {
   height: 100vh;
-  min-height: 47rem;
+  min-height: 44rem;
   background-image: url('images/desktop/image-header.jpg');
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -237,8 +237,8 @@ header > img {
 }
 
 .client {
-  height: 100vh; /* check desktop view in mobile */
-  min-height: 50rem;
+  height: 100vh; 
+  min-height: 44rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -298,6 +298,7 @@ header > img {
 }
 
 .gallery {
+  min-height: 20rem;
   display: flex;
   overflow: hidden;
 }
@@ -314,6 +315,7 @@ header > img {
 footer {
   background-color: #8ed0c4;
   height: 40vh;
+  min-height: 17rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
