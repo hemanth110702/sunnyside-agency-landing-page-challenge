@@ -25,9 +25,6 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-
-
-
 header {
   height: 50rem;
   background-image: url('images/desktop/image-header.jpg');
@@ -38,9 +35,9 @@ header {
 }
 
 nav {
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
   align-items: center;
 }
 
@@ -49,9 +46,9 @@ nav {
 }
 
 .navigation {
+  margin-right: 2rem;
   display: flex;
   justify-content: space-between;
-  margin-right: 2rem;
   align-items: center;
   column-gap: 2.5rem;
 
@@ -84,16 +81,16 @@ nav {
 
 
 .header-content {
-  display: flex;
-  justify-content: center;
   text-align: center;
+  text-transform: uppercase;
   font-family: var(--font-fraunces);
   font-weight: 900;
   font-size: 3.5rem;
-  text-transform: uppercase;
   color: white;
   letter-spacing: 0.5rem;
   margin-top: 3rem;
+  display: flex;
+  justify-content: center;
   position: relative;
 }
 
@@ -108,9 +105,9 @@ header > img {
 
 .transform, .standout,
 .gp-container {
-  display: flex;
   height: 80vh; 
   min-height: 35rem;
+  display: flex;
 }
 
 .transform-left,.transform-right,
@@ -157,10 +154,10 @@ header > img {
 }
 
 .learn {
-  margin-top: 2rem;
+  font-weight: 700;
   font-family: var(--font-fraunces);
   text-transform: uppercase;
-  font-weight: 700;
+  margin-top: 2rem;
   cursor: pointer;
 }
 
@@ -174,12 +171,12 @@ header > img {
 
 
 .learn > hr {
-  margin-top: -7px;
-  margin-left: -5px;
   width: 7.9rem;
   height: 10px;
   border: none;
   border-radius: 1rem;
+  margin-top: -7px;
+  margin-left: -5px;
   transition: background-color 0.5s;
 }
 
@@ -190,8 +187,6 @@ header > img {
 .rd {
   background-color: hsla(7, 99%, 70%, 0.3);
 }
-
-
 
 .graphics {
   background: url('images/desktop/image-graphic-design.jpg');
@@ -224,12 +219,10 @@ header > img {
   transform: translate(-50%, 50%);
 }
 
-
-
 .photography-heading,
 .graphics-heading {
-  text-align: center;
   max-width:15ch;
+  text-align: center;
   font-size: 2rem;
   font-family: var(--font-fraunces);
   font-weight: 900;
@@ -271,18 +264,18 @@ header > img {
 }
 
 .client-heading {
-  font-family: var(--font-fraunces);
-  color: var(--neutral-grayish-blue);
-  font-size: 1.5rem;
   text-transform: uppercase;
-  letter-spacing: 0.3rem;
+  color: var(--neutral-grayish-blue);
+  font-family: var(--font-fraunces);
+  font-size: 1.5rem;
   font-weight: 900;
+  letter-spacing: 0.3rem;
 }
 
 .client-container {
+  max-width: 85%;
   text-align: center;
   display: flex;
-  max-width: 85%;
 }
 
 .client-pht > img {
@@ -337,9 +330,9 @@ header > img {
 }
 
 footer {
-  background-color: #8ed0c4;
   height: 40vh;
   min-height: 17rem;
+  background-color: #8ed0c4;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -349,6 +342,7 @@ footer {
 
 .lg {
   height: 2.2rem;
+  filter: invert(60%) sepia(10%) saturate(1680%) hue-rotate(118deg) brightness(92%) contrast(86%);
 }
 
 .ft-combined {
@@ -390,10 +384,6 @@ footer {
 
 .icon:hover {
   filter: brightness(0) saturate(100%) invert(98%) sepia(2%) saturate(2%) hue-rotate(215deg) brightness(113%) contrast(100%);
-}
-
-.lg {
-  filter: invert(60%) sepia(10%) saturate(1680%) hue-rotate(118deg) brightness(92%) contrast(86%);
 }
 
 .dv-none {
