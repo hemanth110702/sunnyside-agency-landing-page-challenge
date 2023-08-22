@@ -26,9 +26,11 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
+
+
 header {
-  height: 100vh;
-  min-height: 44rem;
+  height: 50rem;
+  max-height: 100%;
   background-image: url('images/desktop/image-header.jpg');
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -97,10 +99,11 @@ nav {
 }
 
 header > img {
+  height: 6rem;
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(50%, -60%);
+  transform: translate(50%, -40%);
 }
 
 
@@ -394,3 +397,8 @@ footer {
 .lg {
   filter: invert(60%) sepia(10%) saturate(1680%) hue-rotate(118deg) brightness(92%) contrast(86%);
 }
+
+.dv-none {
+  display: none;
+}
+

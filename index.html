@@ -17,10 +17,8 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mob-styles.css">
 
-  <style>
-
-  </style>
 </head>
 <body>
   <header>
@@ -28,11 +26,14 @@
       <div class="logo">
         <img src="images/logo.svg" alt="">
       </div>
-      <div class="navigation">
+      <div class="navigation mv-none">
         <div>About</div>
         <div>Services</div>
         <div>Projects</div>
         <div class="contact">Contact</div>
+      </div>
+      <div class="dv-none">
+        <img src="images/icon-hamburger.svg" alt="">
       </div>
     </nav>
     <div class="header-content">
@@ -169,17 +170,29 @@
     </article>
     <!-- gallery -->
     <article class="gallery">
-      <section class="bottles">
+      <section class="bottles mv-none">
         <img src="images/desktop/image-gallery-milkbottles.jpg" alt="">
       </section>
-      <section class="orange">
+      <section class="orange mv-none">
         <img src="images/desktop/image-gallery-orange.jpg" alt="">
       </section>
-      <section class="cone">
+      <section class="cone mv-none">
         <img src="images/desktop/image-gallery-cone.jpg" alt="">
       </section>
-      <section class="cubes">
+      <section class="cubes mv-none">
         <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+      </section>
+      <section class="bottles dv-none">
+        <img src="images/mobile/image-gallery-milkbottles.jpg" alt="">
+      </section>
+      <section class="orange dv-none">
+        <img src="images/mobile/image-gallery-orange.jpg" alt="">
+      </section>
+      <section class="cone dv-none">
+        <img src="images/mobile/image-gallery-cone.jpg" alt="">
+      </section>
+      <section class="cubes dv-none">
+        <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="">
       </section>
     </article>
   </main>
