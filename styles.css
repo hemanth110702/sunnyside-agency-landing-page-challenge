@@ -30,7 +30,6 @@
 
 header {
   height: 50rem;
-  max-height: 100%;
   background-image: url('images/desktop/image-header.jpg');
   background-repeat: no-repeat;
   background-position: bottom center;
