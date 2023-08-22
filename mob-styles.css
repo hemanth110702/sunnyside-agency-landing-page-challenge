@@ -1,8 +1,7 @@
 @media screen and (max-width: 800px) {  
   
   header {
-    height: 100vh;
-    min-height: 50rem;
+    height: 35rem;
     display: flex;
     flex-direction: column;
     row-gap: 5rem;
@@ -10,38 +9,60 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
+    position: relative;
   }
 
     nav {
       padding: 2rem ;
     }
     
-/*     .navigation {
+   .navigation {
+      height: 20rem;
+      width: 80%;
+      background-color: white;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, 20%);
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      justify-content: space-around;
       align-items: center;
-      column-gap: 2.5rem;
-    
+      row-gap: 1rem;
+      position: absolute;
+      z-index: 99;
+      margin: 0;
+      padding: 2rem 0;
+    }
+
+    .navigation::before {
+      content: "";
+      border-bottom: 100px solid white;
+      border-left: 100px solid transparent;
+      position: absolute;
+      top: -10%;
+      right: 0%;
     }
     
     .navigation > div {
       color: var(--neutral-white);
       font-family: var(--font-barlow);
-      font-size: 18px; 
+      font-size: 1.2rem;
+      font-weight: 700; 
       cursor: pointer;
-    } */
+      color: var(--neutral-grayish-blue);
+    } 
     
-/*     .navigation > .contact {
+     .navigation > .contact {
       text-transform: uppercase;
       font-family: var(--font-fraunces);
       font-weight: 700;
       color: black;
-      background-color: white;
+      background-color: var(--primary-yellow);
       padding: 1rem 2rem;
       border-radius: 2rem;
       transition: background-color 0.25s, color 0.25s;
       transition-timing-function: ease;
-    } */
+    } 
     
     
 /*     .navigation > .contact:hover {
@@ -58,7 +79,7 @@
     }
     
     header > img {
-      height: 10rem;
+      height: 7rem;
       transform: translate(50%, 10%);
     }
     
@@ -76,12 +97,6 @@
       height: 90rem;
       display: grid;
     }
-/*     .transform, .standout,
-    .gp-container {
-      display: flex;
-      height: 80vh; 
-      min-height: 35rem;
-    } */
     
     .transform-left,.transform-right,
     .standout-left, .standout-right,
@@ -321,7 +336,7 @@
 
     footer {
       background-color: #8ed0c4;
-      height: 40vh;
+      height: 20rem;
       min-height: 17rem;
       display: flex;
       flex-direction: column;
