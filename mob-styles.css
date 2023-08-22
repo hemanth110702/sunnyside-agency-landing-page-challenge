@@ -2,7 +2,7 @@
   
   header {
     height: 100vh;
-    min-height: 35rem;
+    min-height: 50rem;
     display: flex;
     flex-direction: column;
     row-gap: 5rem;
@@ -52,7 +52,7 @@
     
     .header-content {
       max-width: 7ch;
-      font-size: 2.5rem;
+      font-size: 2rem;
       margin: 0;
       margin-inline: auto;
     }
