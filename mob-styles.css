@@ -112,10 +112,14 @@
   
   .graphics {
     background: url('images/mobile/image-graphic-design.jpg');
+    background-position: bottom center;
+    background-size: cover;
   }
   
   .photography {
     background: url('images/mobile/image-photography.jpg');
+    background-position: bottom center;
+    background-size: cover;
   }
   
   .graphics-container,
