@@ -125,6 +125,8 @@
   .graphics-container,
   .photography-container {
     width: 95%;
+    background-position: bottom center;
+    background-size: cover;
   }
   
   
