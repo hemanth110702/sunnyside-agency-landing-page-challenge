@@ -95,7 +95,7 @@ nav {
 }
 
 header > img {
-  height: 6rem;
+  height: 7rem;
   position: absolute;
   top: 50%;
   right: 50%;
@@ -105,7 +105,7 @@ header > img {
 
 .transform, .standout,
 .gp-container {
-  height: 47rem;
+  height: 33.3rem;
   display: flex;
 }
 
