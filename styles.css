@@ -88,7 +88,7 @@ nav {
   font-size: 3.5rem;
   color: white;
   letter-spacing: 0.5rem;
-  padding-top: 5rem;
+  padding-top: 4.5rem;
   display: flex;
   justify-content: center;
   position: relative;
@@ -105,7 +105,7 @@ header > img {
 
 .transform, .standout,
 .gp-container {
-  height: 35rem;
+  height: 47rem;
   display: flex;
 }
 
@@ -254,7 +254,7 @@ header > img {
 }
 
 .client {
-  height: 50rem;
+  height: 47rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
