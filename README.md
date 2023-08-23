@@ -34,7 +34,6 @@ Users should be able to:
 <table>
     <tr>
         <th>Desktop View</th>
-        <th>Tablet View</th>
         <th>Mobile View</th>
     </tr>
     <tr>
@@ -118,8 +117,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/hemanth110702/rock-paper-scissors-challenge)
-- [Live Page](https://hemanth110702.github.io/rock-paper-scissors-challenge/)
+- [Solution](https://github.com/hemanth110702/sunnyside-agency-landing-page-challenge)
+- [Live Page](https://hemanth110702.github.io/sunnyside-agency-landing-page-challenge/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
