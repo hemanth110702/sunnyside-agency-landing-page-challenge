@@ -105,7 +105,7 @@ header > img {
 
 .transform, .standout,
 .gp-container {
-  height: 80vh; 
+  height: 100vh; 
   min-height: 35rem;
   display: flex;
 }
@@ -255,7 +255,8 @@ header > img {
 }
 
 .client {
-  height: 44rem;
+  height: 100vh;
+  min-height: 44rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
